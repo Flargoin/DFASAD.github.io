@@ -4,7 +4,7 @@
 body{
     background-color: #191919;
     color: #b48364;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Bookman Old Style', sans-serif;
 }
 .container{
     max-width: 1560px;
@@ -14,22 +14,23 @@ body{
 
 }
 header{
-    vertical-align: middle;
     background-color: #000000;
     height: 140px;
+    margin-bottom: 1034px;
 }
 .header-inner{
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding-top: 42px;
-    
+    padding-bottom: 42px;
 }
 .nav-menu{
     display: flex;
     align-items: center;
 }
 .nav-link{
+    font-family: "Roboto", sans-serif;
     text-decoration: none;
     color:#b48364;
     font-size: 24px;
@@ -41,8 +42,14 @@ header{
     margin-right: 30px;
 }
 .nav-link:hover{
-    border-bottom: 2px solid #ecc7bf;
-    border-top: 2px solid #ecc7bf;
+text-shadow:2px 2px 5px #ecc7bf;
+}
+.header-bcg-image{
+    background-image: url(../img/header-img.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 1030px;
+    margin:0 auto;
 }
 .header-contacts{
     color:#ecc7bf;
@@ -54,4 +61,176 @@ header{
     color: #000000;
     padding: 20px 25px;
     border-radius: 50px;
+}
+.header-top-inner{
+    text-align: center;
+    padding-top: 365px;
+    height: 100vh;
+}
+.header-text{
+    font-size: 68px;
+    font-family: 'Bookman Old Style', sans-serif;
+    color: #ac926f;
+    font-weight: 900;
+    margin-bottom: 180px;
+}
+.button{
+    font-family: "Roboto", sans-serif;
+    width: 350px;
+    height: 80px;
+    font-size: 25px;
+    font-weight: 600;
+    border: none;
+    background-color: #fff;
+    border-radius: 50px;
+}
+
+.product{
+    position: relative;
+    background-color: #ab916f;
+    color:#fff;
+    padding-top: 95px;
+    text-align: center;
+}
+.alvic:after{
+    position: absolute;
+    bottom: -20px;
+    left: 920px;
+    transform: rotate(45deg);
+    content:'';
+    width: 45px;
+    height: 45px;
+    background-color: #ab916f;
+}
+.product-title{
+    font-size: 55px;
+    font-weight: 700;
+    margin: 0;
+    margin-bottom: 45px;
+    text-align: left;
+}
+.product-text  {
+    font-size: 25px;
+    font-family: "Roboto",sans-serif;
+    width: 1300px;
+    margin-bottom: 70px;
+    text-align: left;
+}
+.product-items{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    flex-wrap: wrap;
+    padding-bottom: 70px;
+}
+.item{
+    position: relative;
+    text-align: center;
+    width: 415px;
+    height: 575px;
+    background-color: #fff;
+    color: #000;
+    font-family: "Roboto",sans-serif;
+    border-radius: 30px;
+}
+.product-img{
+    position: absolute;
+    top: 80px;
+    left: 55px;
+    margin-bottom: 35px;
+}
+.item-subtitle{
+    position: absolute;
+    top: 30px;
+    left: 160px;
+    text-align: center;
+    font-size: 30px;
+    color:#ac926f;
+}
+.item-title{
+    position: absolute;
+    top: 35px;
+    left: 13px;
+    font-size: 34px;
+    font-weight: 600;
+}
+.item-text{
+    
+    font-size: 22px;
+    position: absolute;
+    top: 210px;
+    left: 30px;
+    width: 345px;
+    text-align: center;
+}
+
+.item-btn{
+    position: absolute;
+    bottom: 40px;
+    left: 87px;
+    background-color: #ab916e;
+    padding: 20px 70px;
+    border-radius: 35px;
+    color:#fff;
+}
+.alvic-btn{
+    text-align: center;
+    color: #000;
+    font-size: 21px;
+    padding: 25px 60px;
+    border-radius: 50px;
+    border: none;
+    background-color: #fff;
+    margin-bottom: 125px;
+}
+.table-choose{
+    background-color: #eaded4;
+}
+.buttons-choose{
+    display: flex;
+    flex-direction: column;
+    width: 260px;
+    height: 60px;
+}
+.collection-alvic{
+    height: 1240px;
+}
+.collection-title{
+    text-align: center;
+    margin-top: 150px;
+    font-size: 60px;
+    color:#fff;
+}
+.senosan {
+    box-shadow: 0px 0px 40px #444;
+}
+.laser{
+    padding-top: 180px;
+    background-color: #ab916f;
+    color: #fff;
+    text-align: center;
+}
+.laser-title{
+    font-size: 60px;
+    margin-bottom: 35px;
+}
+.laser-text{
+    font-size: 30px;
+    margin-bottom: 160px;
+}
+.laser-advantages{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.advantage-img{
+    max-width: 200px;
+}
+.advantage-title{
+    font-size: 36px;
+}
+.advantage-text{
+    font-size: 30px;
+    width:460px;
 }
