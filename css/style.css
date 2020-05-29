@@ -1,18 +1,24 @@
 *{
     box-sizing: border-box;
 }
+html{
+    overflow-x: hidden;
+}
 body{
     background-color: #191919;
     color: #b48364;
     font-family: 'Bookman Old Style', sans-serif;
-    
+    overflow-x: hidden;
 }
+  
 button{
     border:none;
 }
 .container{
     max-width: 1200px;
     margin: auto;
+    width: 70vw;
+    
 }
 .header-contacts__adaptive{
     display: none;
