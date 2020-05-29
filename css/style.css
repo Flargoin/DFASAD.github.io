@@ -160,7 +160,7 @@ text-shadow:0px 0px 10px #ecc7bf;
     font-size: 21px;
     line-height: 30px;
     font-family: "Roboto",sans-serif;
-    width: 1200px;
+    max-width: 1200px;
     margin-bottom: 70px;
     text-align: left;
     
@@ -561,6 +561,8 @@ color-var{
 .laser-advantages{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 .advantage-img{
     max-width: 120px;
@@ -1172,6 +1174,35 @@ color-var{
       .container{
           width: 95%;
       }
+      .logo {
+        width: 160px;
+        height: 35px;
+    }
+    .header-bcg-image{
+        height: 1064px;
+    }
+    .product-items{
+        justify-content: space-around;
+    }
+    .item{
+        margin-bottom: 40px;
+    }
+      .header-contacts{
+          display: none;
+      }
+      .header-contacts__adaptive{
+          display: flex;
+      }
+      .phone-adaptive{
+        margin-right: 15px;
+        width: 29px;
+        margin-top: 6px;
+        height: 29px;
+    }
+    .email-adaptive{
+        width: 42px;
+        height: 42px;
+    }
       .product-text{
           max-width: 1000px;
       }
@@ -1187,8 +1218,8 @@ color-var{
         height: 166px;
         border-radius: 7px;
     }
-    .bottom-slider{
-        
+    .advantage{
+        margin-bottom: 50px;
     }
     .content-slider{
         display: block;
@@ -1338,11 +1369,13 @@ color-var{
     .nav__header-adaptive{
         display: flex;
     }
+    .nav-link{
+        font-size: 20px;
+    }
     .menu-adaptive{
         list-style: none;
         margin: 0 auto;
     }
-
     .header__burger{
         position: relative;
         display: block;
@@ -1392,6 +1425,12 @@ color-var{
         display: none;
     }
 
+    .advantage{
+        margin-bottom: 30px;
+        background-color: #333;
+        padding: 30px;
+        border-radius: 30px;
+    }
 
     .nav__header-adaptive{
         position: absolute  ;
@@ -1415,13 +1454,74 @@ color-var{
         top: 0;
     }
 
+    .slider-nav{
+        max-width: 700px;
+        margin-left: 13px;
+    }
+
 }
   @media (max-width: 568px){
+    .slider-1 .slide-img{
+        height: 355px;
+        width: 505px;
+    }
+    .slider-1{
+        width: 505px;
+    }
+    .slide-img {
+        width: 130px;
+        height: 95px;
+        border-radius: 7px;
+    }
+    .slider-nav{
+        width: 505px;
+    }
+    .cooperation-text{
+        font-size: 19px;
+        margin-bottom: 90px;
+    }
+    .cooperation-descr{
+        font-size: 20px;
+    }
+    .feedback-title{
+        font-size: 30px;
+    }
+    .feedback-input{
+        max-width: 400px;
+    }
+    .feedback-message{
+        max-width: 400px;
+    }
+    .modal-dialog {
 
+        padding: 50px;
+    }
   }
 
   @media (max-width:480px){
-
+    .laser-title{
+        font-size: 40px;
+    }
+    .laser-descr{
+        font-size: 18px;
+    }
+    iframe{
+        width: 450px;
+    }
+    .slider-1 .slide-img {
+        height: 330px;
+        width: 425px;
+    }
+    .slider-1{
+        width: 425px;
+    }
+    .slide-img{
+        width: 125px;
+        height: 90px;
+    }
+    .slider-nav{
+        width: 430px;
+    }
   }
 
   @media (max-width:350px){
