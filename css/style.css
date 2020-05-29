@@ -1597,3 +1597,63 @@ color-var{
     width: 303px;
 }
   }
+
+  @media (max-width:320px){
+      .container{
+          width: 90%;
+      }
+    .item{
+          width: 300px;
+      }
+      .product-title{
+          font-size: 30px;
+      }
+      .product-text{
+          font-size: 14px;
+      }
+      .item-text{
+          left: 17px;
+          top: 380px;
+          font-size: 16px;
+      }
+      .product-info__img{
+          width: 300px;
+      }
+      .laser-title{
+          font-size: 30px;
+      }
+      .laser-descr{
+          font-size: 14px;
+      }
+      .senosan-video-title{
+          font-size: 25px;
+      }
+      iframe{
+          width: 300px;
+      }
+
+      .slider-1 .slide-img {
+        height: 200px;
+        width: 270px;
+    }
+    .slide-img {
+        width: 60px;
+        height: 45px;
+    }
+    .slider-nav{
+        width: 270px;
+    }
+    .cooperation-title{
+        font-size: 25px;
+    }
+    .feedback-input {
+        width: 210px;
+    }
+    .feedback-message{
+        width: 210px;
+    }
+    .slider-1{
+        width: 270px;
+    }
+    .price-dialog{padding: 50px 40px;}
+  }
