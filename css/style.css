@@ -1522,8 +1522,78 @@ color-var{
     .slider-nav{
         width: 430px;
     }
+    .feedback-input{
+        width: 330px;
+    }
+    .feedback-message{
+        width: 330px;
+    }
+    .modal-title{
+        font-size: 30px;
+        line-height: 35px;
+        margin-bottom: 25px;
+    }
+    .feedb-descr{
+        font-size: 15px;
+    }
   }
 
   @media (max-width:350px){
+ .logo{
+     width: 100px;
+     height: 25px;
+ }
+ .header-top-inner{
+     padding-top: 200px;
+ }
+ .header-text{
+     font-size: 26px;
+     margin-bottom: 55px;
+ }
+ .button{
+     width: 180px;
+     height: 50px;
+     font-size: 15px;
+ }
+ .menu-adaptive{
+     margin-left:25px;
+ }
+ item{
+     width: 320px;
+ }
+ .item-text{
+     max-width:265px;
+     top: 350px;
+ }
+ .product-info__img{
+     width: 332px;
+ }
+ iframe{
+     width: 320px;
+     height: 200px;
+ }
+ .collection-title{
+     font-size: 40px;
+ }
+ .laser-title{
+     font-size: 35px;
+ }
+ .cooperation-title{
+     font-size: 30px;
+ }
+ .slider-1 .slide-img {
+    height: 250px;
+    width: 303px;
+}
+.slide-img {
+    width: 100px;
+    height: 80px;
+}
+.slider-nav{
+    width: 300px;
+}
 
+.slider-1{
+    width: 303px;
+}
   }
