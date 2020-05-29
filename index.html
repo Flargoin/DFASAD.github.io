@@ -6,6 +6,8 @@
     <link href="http://allfont.ru/allfont.css?fonts=bookman-old-style" rel="stylesheet" type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700&display=swap&subset=cyrillic" rel="stylesheet"> 
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap&subset=cyrillic" rel="stylesheet"> 
+    <link  href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
     <title>DFASAD</title>
@@ -13,38 +15,63 @@
 <body>
 
     <header class="header">
-
+        <section class="header1">
     <div class="container">
         <div class="header-inner">
+            <a href="" class="header-logo">
             <img src="img/logo.png" alt="logo" class="logo">
-        
+            </a>
+
+            <div class="header__burger">
+                <span class="burger"></span>
+            </div>
+
+            <nav class="nav__header-adaptive">
+                <ul class="menu-adaptive">
+                <li><a href="#alvic" class="nav-link">ALVIC</a></li>
+            <li><a href="#senosan" class="nav-link">SENOSAN</a></li>
+           <li> <a href="#fenix" class="nav-link">FENIX</a></li>
+            <li><a href="#works" class="nav-link">ГОТОВЫЕ РАБОТЫ</a></li>
+            <li><a href="#cooperation" class="nav-link">СОТРУДНИЧЕСТВО</a></li>
+        </ul>
+        </nav>
+                
+            </nav>
 
         <nav class="menu">
-            <ul class="nav-menu"></ul>
-            <a href="#" class="nav-link">ALVIC</a>
-            <a href="#" class="nav-link">SENOSAN</a>
-            <a href="#" class="nav-link">FENIX</a>
-            <a href="#" class="nav-link">СОТРУДНИЧЕСТВО</a>
-            <a href="#" class="nav-link">КОНТАКТЫ</a>
-        </nav>
+            <ul class="nav-menu">
+            <a href="#alvic" class="nav-link">ALVIC</a>
+            <a href="#senosan" class="nav-link">SENOSAN</a>
+            <a href="#fenix" class="nav-link">FENIX</a>
+            <a href="#works" class="nav-link">ГОТОВЫЕ РАБОТЫ</a>
+            <a href="#cooperation" class="nav-link">СОТРУДНИЧЕСТВО</a>
+       
+        </ul> </nav>
 
         <div class="header-contacts">
             <a href="tel: +7-916-918-03-33" class="header-phone">+7 916 918-03-33</a><br>
             <a href="mailto:art-decor.fasad@yandex.ru" class="header-email">art-decor.fasad@yandex.ru</a>
         </div>
 
-        <button class="header-button">
-            ОБРАТНЫЙ ЗВОНОК
-        </button>
+        <div class="header-contacts__adaptive">
+            <a href="tel: +7-916-918-03-33" class="header-phone__adaptive">
+                <img src="img/adaptive-phone.png" alt="" class="phone-adaptive">
+            </a>
+            <a href="mailto:art-decor.fasad@yandex.ru" class="header-email__adaptive">
+                <img src="img/adaptive-email.png" alt="" class="email-adaptive">
+            </a>
+        </div>
 </div>
     </div>
+</section>
+
     <section class="header-bcg-image">
         <div class="container">
             <div class="header-top-inner">
         <div class="header-text">
             ГОТОВЫЕ ФАСАДЫ <br> ПО ВАШИМ РАЗМЕРАМ
         </div>
-        <button class="button">
+        <button class="button feedback-button">
             НАПИСАТЬ
         </button>
     </div>
@@ -53,7 +80,7 @@
     </header>
 
     <main class="main">
-        <section class="product alvic">
+        <section id="alvic" class="product alvic">
             <div class="container">
             <h3 class="product-title">
                 ФАСАДЫ ALVIC
@@ -63,29 +90,32 @@
             </p>
             <div class="product-items">
                 <div class="item">
+                    <img src="img/alvic/alvic_luxe_layers.png" alt="" class="product-info__img">
                     <img src="img/alvic/luxe.png" alt="luxe" class="product-img">
                     <p class="item-text">
                         Алвик Люкс - высокоглянцевая серия декоров. Технология обеспечивает зеркальный глянец, высокую износостойкость и ударопрочность 
                     </p>
-                    <button class="item-btn">
+                    <button class="item-btn feedback-button1">
                         ПОДРОБНЕЕ
                     </button>
                 </div>
                     <div class="item">
+                        <img src="img/alvic/alvic_zenit_layers.png" alt="" class="product-info__img">
                         <img src="img/alvic/Zenit.png" alt="zenit" class="product-img">
                         <p class="item-text">
                             Алвик Зенит - матовая серия декоров. Технология нанесения финишного покрытия обеспечивает стойкость к стиранию, прочность и легкую чистку 
                         </p>
-                        <button class="item-btn">
+                        <button class="item-btn feedback-button2">
                             ПОДРОБНЕЕ
                         </button>
                  </div>
                         <div class="item">
+                            <img src="img/alvic/alvic_syncron_layers-703x450.png" alt="" class="product-info__img">
                             <img src="img/alvic/syncron.png" alt="syncron" class="product-img">
                             <p class="item-text">
                                 Синхрон Лайн - серия текстурированных декоров. Структура дерева, бетона или кожи ощущается тактильно
                             </p>
-                            <button class="item-btn">
+                            <button class="item-btn feedback-button3">
                                 ПОДРОБНЕЕ
                             </button>
                 </div>
@@ -93,6 +123,40 @@
             <button class="product-btn">
                 СКАЧАТЬ ПРАЙС
             </button>
+
+
+
+
+            <div class="price price__alvic">
+                <div class="container">
+                <div class="price-dialog">
+                    <div class="price-header">
+                        
+                        <button class="close-alvic
+                        close">&times;</button>
+                    </div>
+         
+                    <div class="price-body">
+                        <h3 class="price-title">ПОЛУЧИТЕ СКИДКУ</h3>
+                        
+                        <a href="#feedback" class="price__buy price__buy-alvic">СДЕЛАТЬ ЗАКАЗ ПО СКИДКЕ</a>
+                       
+                        <p class="price-descr">При заказе в данный момент вы получаете 5% скидку на любой комплект кухни</p>
+                    
+                      
+                       <a href="price/ALVIC_Luxe_Zenit1.pdf" target="_blank" class="price__downl">ПРАЙС LUXE,ZENIT</a>
+                       <a href="price/FASADY_ALVIC_SYNCRON_Ispania_1.pdf" target="_blank" class="price__downl">ПРАЙС SYNCRON</a>
+                    </div>
+                    <div class="modal-footer">
+                    </div>
+                 </div>
+                </div>
+        </div>
+
+
+
+
+
         </div>
         </section>
 
@@ -107,24 +171,56 @@
                     <div class="buttons-choose">
                         <form action="" class="button-category" >
                             <select name="" id="" size="1" class="button-category">
-                                <option value="">LUXE</option>
-                                <option value="">ZENIT</option>
-                                <option value="">SYNCRON</option>
+                                <option value="">ВЫБОР КАТЕГОРИИ</option>
+                                <option id="category1-alvic" value="">LUXE</option>
+                                <option id="category2-alvic" value="">ZENIT</option>
+                                <option id="category3-alvic" value="">SYNCRON</option>
                             </select>
                         </form>
 
-                        <button class="alvic-button-choose button-choose">SOLID COLOURS</button>
-                        <button class="alvic-button-choose button-choose">CUZCO</button>
-                        <button class="alvic-button-choose button-choose">MARMOL</button>
-                        <button class="alvic-button-choose button-choose">MELANGE</button>
-                        <button class="alvic-button-choose button-choose">METALLO</button>
-                        <button class="alvic-button-choose button-choose">OSIRIS</button>
-                        <button class="alvic-button-choose button-choose">PEARL EFFECT</button>
-                        <button class="alvic-button-choose button-choose">STUCO</button>
-                        <button class="alvic-button-choose button-choose">TEXTIL</button>
-                        <button class="alvic-button-choose button-choose">WOODGRAIN</button>
+                        <div class="luxe">
+                        <button id="solid" class="alvic-button-choose button-choose ">SOLID COLOURS</button>
+                        <button id="cuzco" class="cuzco-button-choose button-choose ">CUZCO</button>
+                        <button id="marmol" class="marmol-button-choose button-choose ">MARMOL</button>
+                        <button id="melange" class="melange-button-choose button-choose ">MELANGE</button>
+                        <button id="metallo" class="metallo-button-choose button-choose ">METALLO</button>
+                        <button id="pearl" class="pearl-button-choose button-choose ">PEARL EFFECT</button>
+                        <button id="stuco" class="stuco-button-choose button-choose ">STUCO</button>
+                        <button id="textil" class="textil-button-choose button-choose">TEXTIL</button>
+                        <button id="woodgrain" class="woodgrain-button-choose button-choose ">WOODGRAIN</button>
+                        </div>
+
+                        <div class="zenit">
+                        <button id="supermatt" class="supermatt-button-choose button-choose">SUPERMATT</button>
+                        </div>
+
+                        <div class="syncron">
+                        <button id="carolina_pine" class="carolina_pine-button-choose button-choose ">CAROLINA PINE</button>
+                        <button id="osiris" class="osiris-button-choose button-choose ">OSIRIS</button>
+                        <button id="nocce" class="nocce-button-choose button-choose ">NOCCE</button>
+                        <button id="tessuto" class="tessuto-button-choose button-choose ">TESSUTO</button>
+                        <button id="factory" class="factory-button-choose button-choose ">FACTORY</button>
+                        <button id="lakeland_oak" class="lakeland_oak-button-choose button-choose ">LAKELAND OAK</button>
+                        <button id="spatt" class="spatt-button-choose button-choose ">SPATT</button>
+                        <button id="frappe" class="frappe-button-choose button-choose ">FRAPPE</button>
+                        <button id="pino_rustico" class="pino_rustino-button-choose button-choose ">PINO RUSTINO</button>
+                        <button id="pino_malibu" class="pino_malibu-button-choose button-choose ">PINO MALIBU</button>
+                        <button id="leather" class="leather-button-choose button-choose ">LEATHER</button>
+                        <button id="oriental" class="oriental-button-choose button-choose ">ORIENTAL</button>
+                        <button id="olmo" class="olmol-button-choose button-choose ">OLMO</button>
+                        <button id="solid1" class="solid-button-choose button-choose ">SOLID</button>
+                        <button id="muratti" class="muratti-button-choose button-choose ">MURATTI</button>
+                        <button id="ida" class="ida-button-choose button-choose s">IDA</button>
+                        <button id="ice_cream" class="ice_cream-button-choose button-choose ">ICE CREAM</button>
+                        <button id="oxid" class="oxid-button-choose button-choose ">OXID</button>
+                        <button id="evora" class="evora-button-choose button-choose ">EVORA</button>
+                        </div>
+
+
+                        
                     </div>
                     <!-- Варианты выбора-->
+                    <div class="variables">
                     <div class="solid">
                         <img src="img/luxe/солид колорс/agua-marina.jpg" alt="" class="solid-color color">
                         <img src="img/luxe/солид колорс/antracita.jpg" alt="" class="solid-color color">
@@ -178,7 +274,7 @@
                         <img src="img/luxe/metallo/metallo-04-grafitt.jpg" alt="" class="metallo-color color">
                     </div>
 
-                    <div class="osris">
+                    <div class="osiris">
                         <img src="img/luxe/osiris/osiris-cobre.jpg" alt="" class="osiris-color color">
                         <img src="img/luxe/osiris/osiris-grafito.jpg" alt="" class="osiris-color color">
                         <img src="img/luxe/osiris/osiris-plata.jpg" alt="" class="osiris-color color">
@@ -211,12 +307,158 @@
                         <img src="img/luxe/textil/textil-plata.jpg" alt="" class="textil-color color">
                     </div>
 
+                    <div class="woodgrain">
+                        <img src="img/luxe/woodgrain/art-oak.jpg" alt="" class="woodgrain-color color">
+                        <img src="img/luxe/woodgrain/guayana.jpg" alt="" class="woodgrain-color color">
+                        <img src="img/luxe/woodgrain/olivo.jpg" alt="" class="woodgrain-color color">
+                        <img src="img/luxe/woodgrain/olmo.jpg" alt="" class="woodgrain-color color">
+                        <img src="img/luxe/woodgrain/roble-frappe.jpg" alt="" class="woodgrain-color color">
+                    </div>
+
+                    <div class="supermatt">
+                        <img src="img/zenit/Supermatt/agua-marina.jpg" alt="#" class="supermatt-color color">
+                        <img src="img/zenit/Supermatt/antracita.jpg" alt="#" class="supermatt-color color">
+                        <img src="img/zenit/Supermatt/azul-indigo.jpg" alt="#" class="supermatt-color color">
+                        <img src="img/zenit/Supermatt/basalto.jpg" alt="" class="supermatt-color color">
+                        <img src="img/zenit/Supermatt/blanco (2).jpg" alt="" class="supermatt-color color">
+                        <img src="img/zenit/Supermatt/blanco-polar.jpg" alt="" class="supermatt-color color">
+                        <img src="img/zenit/Supermatt/blanco.jpg" alt="" class="supermatt-color color">
+                        <img src="img/zenit/Supermatt/cashmere.jpg" alt="" class="supermatt-color color">
+                        <img src="img/zenit/Supermatt/curry.jpg" alt="" class="supermatt-color color">
+                        <img src="img/zenit/Supermatt/gris-nube.jpg" alt="" class="supermatt-color color">
+                        <img src="img/zenit/Supermatt/gris-perla.jpg" alt="" class="supermatt-color color">
+                        <img src="img/zenit/Supermatt/gris-plomo.jpg" alt="" class="supermatt-color color">
+                        <img src="img/zenit/Supermatt/magnolia.jpg" alt="" class="supermatt-color color">
+                        <img src="img/zenit/Supermatt/negro.jpg" alt="" class="supermatt-color color">
+                        <img src="img/zenit/Supermatt/oriental-black.jpg" alt="" class="supermatt-color color">
+                        <img src="img/zenit/Supermatt/oriental-white.jpg" alt="" class="supermatt-color color">
+                    </div>
+
+                    <div class="carolina_pine">
+                        <img src="img/alvic syncron/caroline pine/1.jpg" alt="#" class="carolina_pine-img color">
+                        <img src="img/alvic syncron/caroline pine/2.jpg" alt="#" class="carolina_pine-img color">
+                    </div>
+
+                    <div class="nocce">
+                        <img src="img/alvic syncron/nocce/1.jpg" alt="#" class="nocce-img color">
+                        <img src="img/alvic syncron/nocce/2.jpg" alt="#" class="nocce-img color">
+                        <img src="img/alvic syncron/nocce/3.jpg" alt="#" class="nocce-img color">
+                    </div>
+
+                    <div class="tessuto">
+                        <img src="img/alvic syncron/tessuto/1.jpg" alt="#" class="tessuto-img color">
+                        <img src="img/alvic syncron/tessuto/2.jpg" alt="#" class="tessuto-img color">
+                        <img src="img/alvic syncron/tessuto/3.jpg" alt="#" class="tessuto-img color">
+                        <img src="img/alvic syncron/tessuto/4.jpg" alt="#" class="tessuto-img color">
+                        <img src="img/alvic syncron/tessuto/5.jpg" alt="#" class="tessuto-img color">
+                    </div>
+
+                    <div class="factory">
+                        <img src="img/alvic syncron/factory/1.jpg" alt="#" class="factory-img color">
+                        <img src="img/alvic syncron/factory/2.jpg" alt="#" class="factory-img color">
+                        <img src="img/alvic syncron/factory/3.jpg" alt="#" class="factory-img color">
+                    </div>
+
+                    <div class="lakeland_oak">
+                        <img src="img/alvic syncron/lakeland oak/1.jpg" alt="#" class="lakeland_oak-img color">
+                        <img src="img/alvic syncron/lakeland oak/2.jpg" alt="#" class="lakeland_oak-img color">
+                        <img src="img/alvic syncron/lakeland oak/3.jpg" alt="#" class="lakeland_oak-img color">
+                    </div>
+
+                    <div class="spatt">
+                        <img src="img/alvic syncron/spatt/1.png" alt="#" class="spat-img color">
+                        <img src="img/alvic syncron/spatt/2.png" alt="#" class="spat-img color">
+                        <img src="img/alvic syncron/spatt/3.png" alt="#" class="spat-img color">
+                        <img src="img/alvic syncron/spatt/4.png" alt="#" class="spat-img color">
+                        <img src="img/alvic syncron/spatt/5.png" alt="#" class="spat-img color">
+                        <img src="img/alvic syncron/spatt/6.jpg" alt="#" class="spat-img color">
+                    </div>
+
+                    <div class="frappe">
+                        <img src="img/alvic syncron/frappe/1.png" alt="#" class="frappe-img color">
+                        <img src="img/alvic syncron/frappe/2.png" alt="#" class="frappe-img color">
+                        <img src="img/alvic syncron/frappe/3.png" alt="#" class="frappe-img color">
+                    </div>
+
+                    <div class="pino_rustico">
+                        <img src="img/alvic syncron/pino rustico/1.png" alt="#" class="pino_rustico-img color">
+                        <img src="img/alvic syncron/pino rustico/2.png" alt="#" class="pino_rustico-img color">
+                        <img src="img/alvic syncron/pino rustico/3.png" alt="#" class="pino_rustico-img color">
+                        <img src="img/alvic syncron/pino rustico/4.png" alt="#" class="pino_rustico-img color">
+                    </div>
+
+                    <div class="pino_malibu">
+                        <img src="img/alvic syncron/pino malibu/1.png" alt="#" class="pino_malibu-img color">
+                        <img src="img/alvic syncron/pino malibu/2.png" alt="#" class="pino_malibu-img color">
+                        <img src="img/alvic syncron/pino malibu/3.png" alt="#" class="pino_malibu-img color">
+                    </div>
+
+                    <div class="leather">
+                        <img src="img/alvic syncron/leather/1.png" alt="#" class="leather-img color">
+                        <img src="img/alvic syncron/leather/2.png" alt="#" class="leather-img color">
+                        <img src="img/alvic syncron/leather/3.png" alt="#" class="leather-img color">
+                        <img src="img/alvic syncron/leather/4.png" alt="#" class="leather-img color">
+                    </div>
+
+                    <div class="oriental">
+                        <img src="img/alvic syncron/oriental/or1.png" alt="#" class="oriental-img color">
+                        <img src="img/alvic syncron/oriental/or2.png" alt="#" class="oriental-img color">
+                        <img src="img/alvic syncron/oriental/or3.jpg" alt="#" class="oriental-img color">
+                    </div>
+
+                    <div class="olmo">
+                        <img src="img/alvic syncron/olmo/olmo1.png" alt="#" class="olmo-img color">
+                        <img src="img/alvic syncron/olmo/olmo2.png" alt="#" class="olmo-img color">
+                        <img src="img/alvic syncron/olmo/olmo3.png" alt="#" class="olmo-img color">
+                    </div>
+
+                    <div class="solid1">
+                        <img src="img/alvic syncron/solid/sol1.png" alt="#" class="solid-img color">
+                        <img src="img/alvic syncron/solid/sol2.png" alt="#" class="solid-img color">
+                        <img src="img/alvic syncron/solid/sol3.png" alt="#" class="solid-img color">
+                        <img src="img/alvic syncron/solid/sol4.png" alt="#" class="solid-img color">
+                        <img src="img/alvic syncron/solid/sol5.png" alt="#" class="solid-img color">
+                    </div>
+
+                    <div class="muratti">
+                        <img src="img/alvic syncron/muratti/mur1.png" alt="#" class="muratti-img color">
+                        <img src="img/alvic syncron/muratti/mur2.png" alt="#" class="muratti-img color">
+                        <img src="img/alvic syncron/muratti/mur3.png" alt="#" class="muratti-img color">
+                        <img src="img/alvic syncron/muratti/mur4.png" alt="#" class="muratti-img color">
+                    </div>
+
+                    <div class="ida">
+                        <img src="img/alvic syncron/ida/ida1.png" alt="#" class="ida-img color">
+                        <img src="img/alvic syncron/ida/ida2.png" alt="#" class="ida-img color">
+                        <img src="img/alvic syncron/ida/ida3.png" alt="#" class="ida-img color">
+                        <img src="img/alvic syncron/ida/ida4.png" alt="#" class="ida-img color">
+                    </div>
+
+                    <div class="ice_cream">
+                        <img src="img/alvic syncron/ice cream/ic1.png" alt="#" class="ice_cream-img color">
+                        <img src="img/alvic syncron/ice cream/ic2.png" alt="#" class="ice_cream-img color">
+                        <img src="img/alvic syncron/ice cream/ic3.png" alt="#" class="ice_cream-img color">
+                        <img src="img/alvic syncron/ice cream/ic4.png" alt="#" class="ice_cream-img color">
+                    </div>
+
+                    <div class="oxid">
+                        <img src="img/alvic syncron/oxid/Oksid1.png" alt="#" class="oxid-img color">
+                        <img src="img/alvic syncron/oxid/Oksid_2.png" alt="#" class="oxid-img color">
+                        <img src="img/alvic syncron/oxid/Oksid_3.png" alt="#" class="oxid-img color">
+                        <img src="img/alvic syncron/oxid/Oksid_4.png" alt="#" class="oxid-img color">
+                    </div>
+
+                    <div class="evora">
+                        <img src="img/alvic syncron/evora/evora1.png" alt="#" class="evora-img color">
+                        <img src="img/alvic syncron/evora/evora2.png" alt="#" class="evora-img color">
+                    </div>
                 </div>
+            </div>
 
             </div>
         </section>
 
-        <section class="product senosan">
+        <section id="senosan" class="product senosan">
             <div class="container">
             <h3 class="product-title">
                 ФАСАДЫ SENONAN
@@ -229,54 +471,88 @@
 
             <div class="product-items">
                 <div class="item">
+                     <img src="img/senosan/Top X.jpg" alt="" class="product-info__img"><br>
                     <span class="item-subtitle">
                         Top X
                     </span>
+                   
                     <h4 class="item-title">
                         Высокоглянцевые плёнки
                     </h4>
+                    
                     <p class="item-text">
                         Алвик Люкс - высокоглянцевая серия декоров. Технология обеспечивает зеркальный глянец, высокую износостойкость и ударопрочность 
                     </p>
-                    <div class="item-btn">
+                    <button class="item-btn feedback-button4">
                         ПОДРОБНЕЕ
-                    </div>
+                    </button>
                 </div>
                     <div class="item">
-                        <span class="item-subtitle">
+                        <img src="img/senosan/Top Matt.jpg" alt="" class="product-info__img"><br>
+                       <span class="item-subtitle">
                             Top Matt
                         </span>
+                        
                         <h4 class="item-title">
                             Плёнки с глубоко матовой поверхностью
                         </h4>
+                         
                         <p class="item-text">
                             Алвик Зенит - матовая серия декоров. Технология нанесения финишного покрытия обеспечивает стойкость к стиранию, прочность и легкую чистку 
                         </p>
-                        <div class="item-btn">
+                        <button class="item-btn feedback-button5">
                             ПОДРОБНЕЕ
-                        </div>
+                        </button>
                  </div>
                         <div class="item">
+                            <img src="img/senosan/acryl glass.jpg" alt="" class="product-info__img"><br>
                             <span class="item-subtitle">
                                 Acryl Glass
                             </span>
+                            
                             <h4 class="item-title">
                                 Поверхности из лакированного акрилового стекла
                             </h4>
+                            
                             <p class="item-text">
                                 Синхрон Лайн - серия текстурированных декоров. Структура дерева, бетона или кожи ощущается тактильно
                             </p>
-                            <div class="item-btn">
+                            <button class="item-btn feedback-button6">
                                 ПОДРОБНЕЕ
-                            </div>
+                            </button>
                 </div>
 
 
         </div>
-        <button class="product-btn">
+        <button class="product-btn btn1">
                 СКАЧАТЬ ПРАЙС
         </button>
     </div>
+
+    <div class="price price__senosan">
+        <div class="container">
+        <div class="price-dialog">
+            <div class="price-header">
+                
+                <button class="close-senosan close">&times;</button>
+            </div>
+ 
+            <div class="price-body">
+                <h3 class="price-title">ПОЛУЧИТЕ СКИДКУ</h3>
+                
+                <a href="#feedback" class="price__buy price__buy-senosan">СДЕЛАТЬ ЗАКАЗ ПО СКИДКЕ</a>
+               
+                <p class="price-descr">При заказе в данный момент вы получаете 5% скидку на любой комплект кухни</p>
+            
+               <a href="price/DFASAD_SENOSAN.pdf" target="_blank" class="price__downl">ПРАЙС SENOSAN</a>
+            </div>
+            <div class="modal-footer">
+            </div>
+         </div>
+        </div>
+</div>
+
+
         </section>
 
         <section class="laser">
@@ -329,20 +605,57 @@
                 </h3>
 
                 <div class="table-choose">
+                    
                     <!--Кнопки-->
                     <div class="buttons-choose">
-                        <button class="alvic-button-choose button-choose">TOP X</button>
-                        <button class="alvic-button-choose button-choose">TOP MATTE</button>
-                        <button class="alvic-button-choose button-choose">ACRYL GLASS</button>
+                        <button id="topx" class="alvic-button-choose button-choose">TOP X</button>
+                        <button id="topm" class="alvic-button-choose button-choose">TOP MATT</button>
+                        <button id="glass" class="alvic-button-choose button-choose">ACRYL GLASS</button>
                     </div>
                     <!-- Варианты выбора-->
-                    <div class="variable-choose">
-                        <div class="variable"></div>
-                        <div class="variable"></div>
-                        <div class="variable"></div>
-                        <div class="variable"></div>
-                        <div class="variable"></div>
-                        <div class="variable"></div>
+                    <div class="variables">
+                        <div class="senosan__topx">
+                            <div class="senosan__white1 color-var"></div>
+                            <div class="senosan__white2 color-var"></div>
+                            <div class="senosan__white3 color-var"></div>
+                            <div class="senosan__white4 color-var"></div>
+                            <div class="senosan__beige1 color-var"></div>
+                            <div class="senosan__beige2 color-var"></div>
+                            <div class="senosan__beige3 color-var"></div>
+                            <div class="senosan__gray1 color-var"></div>
+                            <div class="senosan__gray2 color-var"></div>
+                            <div class="senosan__gray3 color-var"></div>
+                            <div class="senosan__gray4 color-var"></div>
+                            <div class="senosan__grun color-var"></div>
+                            <div class="senosan__blau1 color-var"></div>
+                            <div class="senosan__black1 color-var"></div>
+                            <div class="senosan__black2 color-var"></div>
+                            <div class="senosan__blau2 color-var"></div>
+                            <div class="senosan__red color-var"></div>
+                            <div class="senosan__fiol color-var"></div> 
+                            <div class="senosan__ser1 color-var"></div>
+                            <div class="senosan__ser2 color-var"></div>
+                            <div class="senosan__blue color-var"></div>  
+                        </div>
+                        <div class="senosan__topmatt">
+                            <div class="topmatt-senosan__white1 color-var"></div>
+                            <div class="topmatt-senosan__white2 color-var"></div>
+                            <div class="topmatt-senosan__beige1 color-var"></div>
+                            <div class="topmatt-senosan__beige2 color-var"></div>
+                            <div class="topmatt-senosan__gray1 color-var"></div>
+                            <div class="topmatt-senosan__gray2 color-var"></div>
+                            <div class="topmatt-senosan__black1 color-var"></div>
+                        </div>
+                        <div class="senosan__glass">
+                            <div class="glass-senosan__white1 glass-color color-var"></div>
+                            <div class="glass-senosan__white2 glass-color color-var"></div>
+                            <div class="glass-senosan__white3 glass-color color-var"></div>
+                            <div class="glass-senosan__beige1 glass-color color-var"></div>
+                            <div class="glass-senosan__beige2 glass-color color-var"></div>
+                            <div class="glass-senosan__gray1 glass-color color-var"></div>
+                            <div class="glass-senosan__gray2 glass-color color-var"></div>
+                            <div class="glass-senosan__gray3 glass-color color-var"></div>                              
+                        </div>
                     </div>
                 </div>
 
@@ -360,7 +673,7 @@
         </div>
         </section>
 
-        <section class="product fenix">
+        <section id="fenix" class="product fenix">
             <div class="container">
             <h3 class="product-title">
                 ФАСАДЫ FENIX
@@ -373,40 +686,69 @@
 
             <div class="product-items fenix-items">
                 <div class="item">
+                    <img src="img/fenix/FENIXNTM.jpg" alt="" class="product-info__img"><br>
                     <span class="item-subtitle">
-                        Top X
+                        Fenix NTM
                     </span>
                     <h4 class="item-title">
-                        Высокоглянцевые плёнки
+                        Нанотехнологичный матовый материал
                     </h4>
-                    <p class="item-text">
-                        Алвик Люкс - высокоглянцевая серия декоров. Технология обеспечивает зеркальный глянец, высокую износостойкость и ударопрочность 
+                    <p class="item-text">                        
+При создании FENIX NTM использованы акриловые смолы нового поколения и закаленное покрытие, которое фиксируется с помощью электронно-лучевого воздействия. 
                     </p>
-                    <div class="item-btn">
+                    <button class="item-btn feedback-button7">
                         ПОДРОБНЕЕ
-                    </div>
+                    </button>
                 </div>
                     <div class="item">
+                        <img src="img/fenix/FENIXNTA.jpg" alt="" class="product-info__img"><br>
                         <span class="item-subtitle">
-                            Top Matt
+                            Fenix NTA
                         </span>
                         <h4 class="item-title">
-                            Плёнки с глубоко матовой поверхностью
+                            Нанотехнологичный сплав
                         </h4>
                         <p class="item-text">
-                            Алвик Зенит - матовая серия декоров. Технология нанесения финишного покрытия обеспечивает стойкость к стиранию, прочность и легкую чистку 
+                            Продукты FENIX NTА также наделены  свойствами регенерации, но имеют металлическое покрытие. Другими словами, они обладают натуральной структурой металла. 
                         </p>
-                        <div class="item-btn">
+                        <button class="item-btn feedback-button8">
                             ПОДРОБНЕЕ
-                        </div>
+                        </button>
                  </div>
 
 
         </div>
-        <button class="product-btn">
+        <button class="product-btn btn2">
                 СКАЧАТЬ ПРАЙС
         </button>
     </div>
+
+
+    <div class="price price__fenix">
+        <div class="container">
+        <div class="price-dialog">
+            <div class="price-header">
+                
+                <button class="close-fenix close">&times;</button>
+            </div>
+ 
+            <div class="price-body">
+                <h3 class="price-title">ПОЛУЧИТЕ СКИДКУ</h3>
+                
+                <a href="#feedback" class="price__buy price__buy-fenix">СДЕЛАТЬ ЗАКАЗ ПО СКИДКЕ</a>
+               
+                <p class="price-descr">При заказе в данный момент вы получаете 5% скидку на любой комплект кухни</p>
+            
+               <a href="price/FENIX_NTM.pdf" target="_blank" class="price__downl">ПРАЙС FENIX</a>
+            </div>
+            <div class="modal-footer">
+            </div>
+         </div>
+        </div>
+</div>
+
+
+
         </section>
 
         <section class="laser">
@@ -461,17 +803,41 @@
                 <div class="table-choose">
                     <!--Кнопки-->
                     <div class="buttons-choose">
-                        <button class="alvic-button-choose button-choose">FENIX NTM</button>
-                        <button class="alvic-button-choose button-choose">FENIX NTA</button>
+                        <button id="ntm" class="alvic-button-choose button-choose">FENIX NTM</button>
+                        <button id="nta" class="alvic-button-choose button-choose">FENIX NTA</button>
                     </div>
                     <!-- Варианты выбора-->
-                    <div class="variable-choose">
-                        <div class="variable"></div>
-                        <div class="variable"></div>
-                        <div class="variable"></div>
-                        <div class="variable"></div>
-                        <div class="variable"></div>
-                        <div class="variable"></div>
+                    <div class="variables">
+                        <div class="ntm">
+                            <img src="img/FENIX_NTM_DECORS/ARPA_0716_ROSA_COLORADO.jpg" alt="" class="fenix-ntm__color color">
+                            <img src="img/FENIX_NTM_DECORS/ARPA_0717_CASTORO_OTTAWA.jpg" alt="" class="fenix-ntm__color color">
+                            <img src="img/FENIX_NTM_DECORS/ARPA_0718_GRIGIO_LONDRA.jpg" alt="" class="fenix-ntm__color color">
+                            <img src="img/FENIX_NTM_DECORS/ARPA_0719_BEIGE_LUXOR.jpg" alt="" class="fenix-ntm__color color">
+                            <img src="img/FENIX_NTM_DECORS/ARPA_0720_NERO_INGO.jpg" alt="" class="fenix-ntm__color color">
+                            <img src="img/FENIX_NTM_DECORS/ARPA_0721_BLU_DELFT.jpg" alt="" class="fenix-ntm__color color">
+                            <img src="img/FENIX_NTM_DECORS/ARPA_2628_ZINCO_DOHA.jpg" alt="" class="fenix-ntm__color color">
+                            <img src="img/FENIX_NTM_DECORS/ARPA_2629_BRONZO_DOHA.jpg" alt="" class="fenix-ntm__color color">
+                            <img src="img/FENIX_NTM_DECORS/ARPA_2630_PIOMBO_DOHA.jpg" alt="" class="fenix-ntm__color color">
+                            <img src="img/FENIX_NTM_DECORS/FENIX_0029_BIANCO_MALE.jpg" alt="" class="fenix-ntm__color color">
+                            <img src="img/FENIX_NTM_DECORS/FENIX_0030_BIANCO_ALASKA.jpg" alt="" class="fenix-ntm__color color">
+                            <img src="img/FENIX_NTM_DECORS/FENIX_0032_BIANCO_KOS.jpg" alt="" class="fenix-ntm__color color">
+                            <img src="img/FENIX_NTM_DECORS/FENIX_0724_GRIGIO_BROMO.jpg" alt="" class="fenix-ntm__color color">
+                            <img src="img/FENIX_NTM_DECORS/FENIX_0725_GRIGIO_EFESO.jpg" alt="" class="fenix-ntm__color color">
+                            <img src="img/FENIX_NTM_DECORS/FENIX_0748_BEIGE_ARIZONA.jpg" alt="" class="fenix-ntm__color color">
+                            <img src="img/FENIX_NTM_DECORS/FENIX_0749_CACAO_ORINOCO.jpg" alt="" class="fenix-ntm__color color">
+                            <img src="img/FENIX_NTM_DECORS/FENIX_0750_VERDE_COMODORO.jpg" alt="" class="fenix-ntm__color color">
+                            <img src="img/FENIX_NTM_DECORS/FENIX_0751_ROSSO_JAIPUR.jpg" alt="" class="fenix-ntm__color color">
+                            <img src="img/FENIX_NTM_DECORS/FENIX_0752_GRIGIO_ANTRIM.jpg" alt="" class="fenix-ntm__color color">
+                            <img src="img/FENIX_NTM_DECORS/FENIX_0754_BLU_FES.jpg" alt="" class="fenix-ntm__color color">
+                            <img src="img/FENIX_NTM_DECORS/FENIX_2638_DOHA_TITANIO.jpg" alt="" class="fenix-ntm__color color">
+                        </div>
+
+                        <div class="nta">
+                            <img src="img/FENIX_NTA_DECORS/FENIX_5000_ACCIAIO_HAMILTON.jpg" alt="" class="fenix-nta__color color">
+                            <img src="img/FENIX_NTA_DECORS/FENIX_5001_ARGENTO_DUKAT.jpg" alt="" class="fenix-nta__color color">
+                            <img src="img/FENIX_NTA_DECORS/FENIX_5003_ORO_CORTEZ.jpg" alt="" class="fenix-nta__color color">
+
+                        </div>
                     </div>
                 </div>
 
@@ -484,43 +850,334 @@
                     ПОЧЕМУ FENIX?
                 </h3>
                 <div class="fenix-videos">
-                    <iframe width="505" height="400" src="https://www.youtube.com/embed/xS_oLva_dKg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    <iframe width="505" height="400" src="https://www.youtube.com/embed/7RqJd6HOJRM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    <iframe width="505" height="400" src="https://www.youtube.com/embed/AyuTIsnVtbw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    <iframe width="505" height="400" src="https://www.youtube.com/embed/1jyI9fUE7l8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    <iframe width="505" height="400" src="https://www.youtube.com/embed/9by5byuXDCQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    <iframe width="505" height="400" src="https://www.youtube.com/embed/sdFHGaQOaEI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe width="385" height="280" src="https://www.youtube.com/embed/xS_oLva_dKg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe width="385" height="280" src="https://www.youtube.com/embed/7RqJd6HOJRM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe width="385" height="280" src="https://www.youtube.com/embed/AyuTIsnVtbw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe width="385" height="280" src="https://www.youtube.com/embed/1jyI9fUE7l8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe width="385" height="280" src="https://www.youtube.com/embed/9by5byuXDCQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe width="385" height="280" src="https://www.youtube.com/embed/sdFHGaQOaEI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
                 </div>
             </div>
         </section>
 
-        <section class="works-slider slider">
+
+        <section class="loft">
+            
             <div class="container">
-                <h3 class="works-slider-title">
+            <div class="loft-inner">
+
+                <div class="loft-left">
+                    <div class="loft-left__title">
+                        СИСТЕМЫ ЛОФТ ОТ КОМПАНИИ «НАЙДИ»
+                    </div>
+                    <p class="loft-left__text">
+                        Компания «НАЙДИ» – это Российское предприятие, которое занимается производством комплектующих для мебели.</p> 
+                        <p class="loft-left__text2">У нас вы можете приобрести: </p>
+                   
+
+                    <div class="loft-items">
+                        <a href='#' class="loft-item">
+                            <div class="loft-item__point"></div>
+                            <p class="loft-item__text">
+                                Отдельные комплектующие
+                            </p>
+
+                            <img src="img/loft-arrow.png" alt="arrow" class="loft-arrow">
+                        </a>
+
+                        <a href='#' class="loft-item">
+                            <div class="loft-item__point"></div>
+                            <p class="loft-item__text">
+                                Готовые комплекты
+                            </p>
+
+                            <img src="img/loft-arrow.png" alt="arrow" class="loft-arrow">
+                        </a>
+
+                        <a href='#' class="loft-item">
+                            <div class="loft-item__point"></div>
+                            <p class="loft-item__text">
+                                Индивидуальный комплект под ваш проект
+                            </p>
+                            
+                            <img src="img/loft-arrow.png" alt="arrow" class="loft-arrow">
+                        </a>
+                    </div>
+
+                    <a href="" class="loft-btn">
+                        СКАЧАТЬ ПРАЙС
+                    </a>
+
+                </div>
+
+                <div class="loft-right">
+
+                </div>
+            </div>
+            
+        
+
+
+        <h3 class="loft-system__title">
+            ЛОФТ-СИСТЕМЫ В ИНТЕРЬЕРЕ
+        </h3>
+
+
+        
+        <div class="loft-system__slider">
+           
+
+
+            <div class="slider-item">
+                <div class="sinner">
+
+            <div class="slider-images__left">
+                <img src='img/loft-slider/1slide.jpg' class="loft-slide__image"></img>
+            </div>
+            <div class="slider-images__right">
+               <div class="slider-images__right-title">ЯЩИКИ С МЕХАНИЗМОМ ПУШ-ОПЕН</div> 
+            <div class="slider-images__text">
+                Также же вы можете заказать другие детали интерьера, которые присуствуют на данных фотографиях:
+                плитная кладка, плафоны
+                ящики с механизмом пуш опен из любых фасадов представленных на сайте.
+                Так же вы можете ознакомиться с альбомом технических решений.
+            </div>
+            <a href="#" class="slider-image__btn">СКАЧАТЬ</a>
+        </div>
+        </div>
+       </div>
+</div>
+</div>
+
+
+        </div>
+        
+        </section>
+
+        <section class="hardware">
+
+            <div class="container">
+
+            <h3 class="hardware-title">НЕ ЗАБЫВАЙТЕ О ДЕТАЛЯХ</h3>
+            
+            <div class="hardware-inner">
+
+                <img class='hardware-img' src="img/hardware-img.jpg" alt="#">
+                <div class="hardware-img">
+                    
+                    
+                    
+                </div>
+
+                <div class="hardware-items">
+                    <div class="hardware-item">
+                        <img src="img/hardware/shest.png" alt="" class="hardware-item__icon">
+                        <h4 class="hardware-item__title">ДЛЯ ЗАВЕРШЁННОГО ДИЗАЙНА В ЯЩИКИ ЛОФТ МОГУТ БЫТЬ УСТАНОВЛЕНЫ ПЕТЛИ HETTICH</h4>
+                        <p class="hardware-item__text">Заинтересовала данная фурнитура? Узнайте о ней подробнее.</p><br>
+                        <button class="hardware-item__btn">ПОДРОБНЕЕ</button>
+                    </div>
+
+                    <div class="hardware-item">
+                        <img src="img/hardware/win.png" alt="#" class="hardware-item__icon">
+                        <h4 class="hardware-item__title">ДОПОЛНИТЕ СТЕКЛОМ</h4>
+                        <p class="hardware-item__text">Ящики, тумбы и каркасно-модульные систумы можно дополнить стеклами различных цветов</p><br>
+                        <button class="hardware-item__btn">ПОДРОБНЕЕ</button>
+                    </div>
+
+                    <div class="hardware-item">
+                        <img src="img/choose.png" alt="#" class="hardware-item__icon">
+                        <h4 class="hardware-item__title">БОЛЬШОЙ ВЫБОР ЦВЕТОВ И ДЕТАЛЕЙ</h4>
+                        <p class="hardware-item__text">Отличаясь высокой эстетичностью, оригинальностью подвесная алюминиевая система НАЙДИ является самым интересным  предложением в своем классе. </p><br>
+                        <button class="hardware-item__btn">ПОДРОБНЕЕ</button>
+                    </div>
+                </div>
+
+            </div>
+
+            <p class="hardware-info">В наличии вся фурнитура для производства. Уточняйте у менеджера.</p>
+
+            </div>
+
+        </section>
+
+
+         <section id="works" class="bottom-slider">
+            <div class="container">
+
+                 <h3 class="works-slider-title">
                     ГОТОВЫЕ РАБОТЫ
-                </h3>
+                </h3> 
+                <div class="content-slider">
 
-                <div class="works-slides">
-                    <div class="slide">
+                    <div class="content-right">
+              
 
-                        <div class="slide-subtitle">
+                <div class="slide-subtitle">
                             Фасады Alvic Luxe
                         </div>
                         <div class="slide-title">
                             Коллекция Solid Colours
                             Цвет Ivory
                         </div>
+                        
                         <div class="slide-text">
                             Алвик Люкс - высокоглянцевая серия декоров Алвик. Лак наносится в семь слоев под ультрафиолетом. Такая технология обеспечивает зеркальный глянец, высокую износостойкость в эксплуатации и ударопрочность
                         </div>
-                        <img src="" alt="" class="slide-img">
+
+                            </div>
+              
+
+                       <div class="content-left">
+                        <div class="works-slider slider-1">
+                        
+                            <div class="slide"> <img src="img/сеносан/1a1a23b9872869f907311aa4b8a7be936b285cab.jpg" alt="" class="slide-img"></div>
+                            <div class="slide"><img src="img/сеносан/EIsyfSAXUAABvhv.jpg" alt="" class="slide-img"></div>
+                            <div class="slide"><img src="img/сеносан/example8_4a.jpg" alt="" class="slide-img"></div>
+                            <div class="slide"><img src="img/сеносан/glos_3_2.jpg" alt="" class="slide-img"></div>
+                            <div class="slide"><img src="img/сеносан/Кухня-прямая-черная-008.jpg" alt="" class="slide-img"></div>
+                            <div class="slide"><img src="img/альвик/01.jpg" alt="" class="slide-img"></div>
+                            <div class="slide"><img src="img/альвик/02.jpg" alt="" class="slide-img"></div>
+                            <div class="slide"><img src="img/альвик/03.jpg" alt="" class="slide-img"></div>
+                            <div class="slide"><img src="img/альвик/04.jpg" alt="" class="slide-img"></div>
+                            <div class="slide"><img src="img/альвик/05.jpg" alt="" class="slide-img"></div>
+                            <div class="slide"><img src="img/альвик/08.jpg" alt="" class="slide-img"></div>
+                            <div class="slide"><img src="img/альвик/09.jpg" alt="" class="slide-img"></div>
+                            <div class="slide"><img src="img/альвик/10.jpg" alt="" class="slide-img"></div>
+                        </div>
+                            </div>
+                        </div>
+                        <div class="slider-nav">
+                            <div class="slide"> <img src="img/сеносан/1a1a23b9872869f907311aa4b8a7be936b285cab.jpg" alt="" class="slide-img"></div>
+                            <div class="slide"><img src="img/сеносан/EIsyfSAXUAABvhv.jpg" alt="" class="slide-img"></div>
+                            <div class="slide"><img src="img/сеносан/example8_4a.jpg" alt="" class="slide-img"></div>
+                            <div class="slide"><img src="img/сеносан/glos_3_2.jpg" alt="" class="slide-img"></div>
+                            <div class="slide"><img src="img/сеносан/Кухня-прямая-черная-008.jpg" alt="" class="slide-img"></div>
+                            <div class="slide"><img src="img/альвик/01.jpg" alt="" class="slide-img"></div>
+                            <div class="slide"><img src="img/альвик/02.jpg" alt="" class="slide-img"></div>
+                            <div class="slide"><img src="img/альвик/03.jpg" alt="" class="slide-img"></div>
+                            <div class="slide"><img src="img/альвик/04.jpg" alt="" class="slide-img"></div>
+                            <div class="slide"><img src="img/альвик/05.jpg" alt="" class="slide-img"></div>
+                            <div class="slide"><img src="img/альвик/08.jpg" alt="" class="slide-img"></div>
+                            <div class="slide"><img src="img/альвик/09.jpg" alt="" class="slide-img"></div>
+                            <div class="slide"><img src="img/альвик/10.jpg" alt="" class="slide-img"></div>
+                            
+                            <div class="slide"><img src="img/fenix/5c8d620a24838c3ee4786e77a0424163.jpeg" alt="" class="slide-img"></div>
+                            <div class="slide"><img src="img/fenix/ccf2abfecbc7f399680e2354e2bdde3d.jpg" alt="" class="slide-img"></div>
+                            <div class="slide"><img src="img/fenix/fasadfenix8-2000x1263.jpg" alt="" class="slide-img"></div>
+                            <div class="slide"><img src="img/fenix/fenix-10.jpg" alt="" class="slide-img"></div>
+                            <div class="slide"><img src="img/fenix/FENIXNTA.jpg" alt="" class="slide-img"></div>
+                            <div class="slide"><img src="img/fenix/FENIXNTM.jpg" alt="" class="slide-img"></div>
+                            <div class="slide"><img src="img/fenix/kuchni-fenix-2.jpg" alt="" class="slide-img"></div>
+                            <div class="slide"><img src="img/fenix/kuhnya_doimo.jpg" alt="" class="slide-img"></div>
+                        </div>
+                    
                     </div>
-                </div>
+                   
+               
+
+        </section>
+
+
+        <section id="feedback" class="feedback">
+
+            <div class="container">
+
+                <h3 id="feedback" class="feedback-title">
+                    НАПИШИТЕ НАМ, И МЫ ПЕРЕЗВОНИМ ЧЕРЕЗ 15 МИНУТ
+                </h3>
+
+                <form action="" class="feedback-form">
+                    <input class="feedback-name feedback-input" type="text" placeholder='Ваше имя'><br>
+                    <input class="feedback-phone feedback-input" type="text" placeholder='Номер телефона'><br>
+                    <textarea name="" id="" cols="30" rows="8" class="feedback-message" placeholder="Ваше сообщение"></textarea><br>
+                    <button class="feedback-btn">ОТПРАВИТЬ</button>
+                </form>
+
             </div>
         </section>
 
+        <section id="cooperation" class="cooperation">
+
+            <div class="container">
+
+                <h3 class="cooperation-title">
+                    СОТРУДНИЧЕСТВО
+                </h3>
+
+                <p class="cooperation-text">
+                    Помимо производственных услуг наша компания предлагает Вам взаимовыгодное сотрудничество.
+                    В нашемраспоряжении специализированное производство по изготовлению мебельных фасадов с возможностью нанесения лазерной кромки. Помимо этого, мы готовы предложить внедрение вашей выпускаемой продукции нашим клиентам, вступив в роли провайдера. 
+                </p>
+
+                <p class="cooperation-descr">
+                    С наилучшими пожеланиямии,<br>
+                    команда DFASAD
+                </p>
+
+            </div>
+
+
+        </section>
+
     </main>
-    
+
+
+    <footer class="footer">
+        <div class="container">
+        <div class="footer-logo">
+            <img src="img/logo.png" alt="" class="footer-logo__img"><br>
+            <a href="#" class="footer-phone">
+                +7 916 918-03-33
+            </a><br>
+
+            <a href="" class="footer-mail">
+                art-decor.fasad@yandex.ru
+            </a><br>
+
+            <span class="footer-years"> © 1999 - 2020 DFASAD</span>
+        </div>
+    </div>
+    </footer>
+
+
+
+
+
+    <div class="modal">
+        <div class="container">
+        <div class="modal-dialog">
+            <div class="modal-header">
+                
+                <button class="close close-modal">&times;</button>
+            </div>
+ 
+            <div class="modal-body">
+                <h3 class="modal-title">МЫ С ВАМИ СВЯЖЕМСЯ</h3>
+                <p class="feedb-descr">
+                    Оставьте свои данные и наш консультант с вами свяжется по заинтересованному продукту или поможет его выбрать
+                </p>
+                <form action="" class="feedback-form">
+                    <input class="feedback-name feedback-input" type="text" placeholder='Ваше имя'><br>
+                    <input class="feedback-phone feedback-input" type="text" placeholder='Номер телефона'><br>
+                    <input type="text" class="feedback-mail feedback-input" placeholder="Ваш e-mail"><br>
+                    <textarea name="" id="" cols="40" rows="8" class="feedback-message" placeholder="Ваше сообщение"></textarea><br>
+                    <button class="feedback-btn">ОТПРАВИТЬ</button>
+                </form>
+
+            </div>
+            <div class="modal-footer">
+            </div>
+         </div>
+        </div>
+</div>
+
+
+
+    <link rel="stylesheet" href="slick/slick.css">
+    <link rel="stylesheet" href="slick/slick-theme.css">
+<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script src="slick/slick.min.js"></script> 
+<script src="js/main.js"></script>
 </body>
 </html>
